@@ -1,0 +1,14 @@
+body{
+    background: #21A454;
+    background: linear-gradient(to right, #21A454, rgb(176, 197, 175));
+}
+.imgLogoDos{
+    background: white;
+    background-image: url(../img/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imgLogo{
+    width: 350px;
+}
