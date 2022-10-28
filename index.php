@@ -30,7 +30,8 @@
           <div class="my-3 fw-bold">
             <span>¿Deseas realizar una solicitud? </span>
             <div class="d-grid">
-            <button type="submit" class="btn btn-danger">Registrate</button>
+              <a class="btn btn-danger" href="registro.php">Registrate</a>
+            </div>
           </div>
           </div>
         </form>
