@@ -1,4 +1,4 @@
-body{
+.bg{
     background: #21A454;
     background: linear-gradient(to right, #21A454, rgb(176, 197, 175));
 }
@@ -11,4 +11,28 @@ body{
 
 .imgLogo{
     width: 350px;
+}
+
+.colorTitle2 {
+    color: #E40009;
+    font-weight: bold;
+}
+
+.colorTitle {
+    color: white;
+    font-weight: bold;
+}
+
+.navbarc {
+    background: #21A454;
+    color:white;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.alturalogo {
+    height: 40px;
+    zoom:150%;
 }

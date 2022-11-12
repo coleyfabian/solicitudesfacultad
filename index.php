@@ -8,21 +8,21 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Login</title>
 </head>
-<body>
+<body class="bg">
   <div class="container w-75 bg-light mt-5 rounded shadown">
     <div class="row aling-items-stretch">
       <div class="col imgLogoDos d-none d-lg-block rounded col-md-5 col-lg-5 col-xl-6"></div>
       <div class="col bg-white rounded p-5">
         <h2 class="fw-bold text-center py-5">Bienvenido</h2>
         <!-- Login -->
-        <form action="#">
+        <form action="comprueba_login.php" method="post">
           <div class="mb-4">
             <label for="user" class="form-label">Usuario</label>
             <input type="text" placeholder="Numero de identidad" class="form-control" name="usuario">
           </div>
           <div class="mb-4">
           <label for="user" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" name="password">
+            <input type="password" placeholder="**********" class="form-control" name="passwordr">
           </div>
           <div class="d-grid">
             <button type="submit" class="btn btn-success">Entrar</button>
