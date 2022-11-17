@@ -12,11 +12,19 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- La exportación de datos fue deseleccionada.
+-- Volcando datos para la tabla solicitudes.administracion: ~0 rows (aproximadamente)
+/*!40000 ALTER TABLE `administracion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `administracion` ENABLE KEYS */;
 
--- La exportación de datos fue deseleccionada.
+-- Volcando datos para la tabla solicitudes.solicitudes: ~0 rows (aproximadamente)
+/*!40000 ALTER TABLE `solicitudes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `solicitudes` ENABLE KEYS */;
 
--- La exportación de datos fue deseleccionada.
+-- Volcando datos para la tabla solicitudes.usuarios: ~1 rows (aproximadamente)
+/*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
+INSERT IGNORE INTO `usuarios` (`user`, `passwordr`, `nombre`, `apellido`, `cedula`, `facultad`) VALUES
+	(1, '123', 'jean', 'ninguno', 123456789, '1');
+/*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
